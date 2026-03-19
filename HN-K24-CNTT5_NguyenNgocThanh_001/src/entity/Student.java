@@ -15,9 +15,6 @@ public class Student {
         this.studentName = studentName;
     }
 
-    public Student() {
-    }
-
     public int getAge() {
         return age;
     }
