@@ -27,6 +27,7 @@ public class StudentManager {
                 System.err.println("Lựa chọn không hợp lệ, vui lòng nhập lại.");
                 continue;
             }
+            
             switch (choice) {
                 case 1:
                     //hiển thị danh sách
