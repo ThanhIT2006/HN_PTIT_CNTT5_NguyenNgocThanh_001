@@ -88,7 +88,7 @@ public class Student {
                     System.out.println("Tuổi phải từ 18-100, nhập lại");
                 }
             } catch (NumberFormatException e) {
-                System.out.println("Số không hợp lệ, nhập lại");
+                System.out.println("không được để trống, nhập lại");
             }
         }
 
@@ -104,7 +104,7 @@ public class Student {
                     System.out.println("GPA cần giữa 0.0 - 10.0, nhập lại");
                 }
             } catch (NumberFormatException e) {
-                System.out.println("Số không hợp lệ , nhập lại");
+                System.out.println("Không được để trống, nhập lại");
             }
         }
     }

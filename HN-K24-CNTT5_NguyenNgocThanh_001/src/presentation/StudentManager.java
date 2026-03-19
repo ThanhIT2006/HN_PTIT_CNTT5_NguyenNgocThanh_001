@@ -10,16 +10,16 @@ public class StudentManager {
         int choice = 0;
         do {
             System.out.println("""
-                    ***************** QUẢN LÝ SINH VIÊN ***************** 
+                    ***************** QUẢN LÝ SINH VIÊN *****************
                     1. Hiển thị danh sách toàn bộ sinh viên
                     2. Thêm mới sinh viên
-                    3. Cập nhật thông tin sinh viên theo mã 
+                    3. Cập nhật thông tin sinh viên theo mã
                     4. Xóa sinh viên theo mã sinh viên
                     5. Tìm kiếm sinh viên theo tên
                     6. Lọc danh sách sinh viên Giỏi
                     7. Sắp xếp danh sách sinh viên giảm dần theo điểm
                     8. Thoát
-                    Lựa chọn của bạn: 
+                    Lựa chọn của bạn:
                     """);
             try {
                 choice = Integer.parseInt(sc.nextLine());
